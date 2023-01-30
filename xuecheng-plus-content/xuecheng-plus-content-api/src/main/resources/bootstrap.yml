@@ -1,4 +1,7 @@
-
+server:
+  servlet:
+    context-path: /content
+  port: 63030
 #微服务配置
 spring:
   application:
@@ -6,25 +9,25 @@ spring:
   cloud:
     nacos:
       server-addr: 127.0.0.1:8848
-      discovery:
-        namespace: 9f7e265d-63ec-467f-9c59-11131a7178fe
-        group: xuecheng-plus-project
-      config:
-        namespace: 9f7e265d-63ec-467f-9c59-11131a7178fe
-        group: xuecheng-plus-project
-        file-extension: yaml
-        refresh-enabled: true
-        extension-configs:
-          - data-id: content-service-${spring.profiles.active}.yaml
-            group: xuecheng-plus-project
-            refresh: true
-        shared-configs:
-          - data-id: swagger-${spring.profiles.active}.yaml
-            group: xuecheng-plus-common
-            refresh: true
-          - data-id: logging-${spring.profiles.active}.yaml
-            group: xuecheng-plus-common
-            refresh: true
+#      discovery:
+#        namespace: 9f7e265d-63ec-467f-9c59-11131a7178fe
+#        group: xuecheng-plus-project
+#      config:
+#        namespace: 9f7e265d-63ec-467f-9c59-11131a7178fe
+#        group: xuecheng-plus-project
+#        file-extension: yaml
+#        refresh-enabled: true
+#        extension-configs:
+#          - data-id: content-service-${spring.profiles.active}.yaml
+#            group: xuecheng-plus-project
+#            refresh: true
+#        shared-configs:
+#          - data-id: swagger-${spring.profiles.active}.yaml
+#            group: xuecheng-plus-common
+#            refresh: true
+#          - data-id: logging-${spring.profiles.active}.yaml
+#            group: xuecheng-plus-common
+#            refresh: true
   #profiles默认为dev
   profiles:
     active: dev

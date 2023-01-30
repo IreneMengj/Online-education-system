@@ -10,9 +10,9 @@ spring:
   cloud:
     nacos:
       server-addr: 127.0.0.1:8848
-      discovery:
-        namespace: 9f7e265d-63ec-467f-9c59-11131a7178fe
-        group: xuecheng-plus-project
+#      discovery:
+#        namespace: 9f7e265d-63ec-467f-9c59-11131a7178fe
+#        group: xuecheng-plus-project
 #      config:
 #        namespace: 9f7e265d-63ec-467f-9c59-11131a7178fe
 #        group: xuecheng-plus-project
