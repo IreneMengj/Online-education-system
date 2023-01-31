@@ -1,6 +1,6 @@
 server:
-  servlet:
-    context-path: /content
+#  servlet:
+#    context-path: /content
   port: 63030
 #微服务配置
 spring:
@@ -17,9 +17,11 @@ spring:
     suffix: .ftl   #页面模板后缀名
     charset: UTF-8
     template-loader-path: classpath:/templates/   #页面模板位置(默认为 classpath:/templates/)
-    resources:
-      add-mappings: false   #关闭项目中的静态资源映射(static、resources文件夹下的资源)
+#    resources:
+#      add-mappings: false   #关闭项目中的静态资源映射(static、resources文件夹下的资源)
 
+#  resources:
+#    static-locations: classpath:templates/,classpath:static/
   #      discovery:
 #        namespace: 9f7e265d-63ec-467f-9c59-11131a7178fe
 #        group: xuecheng-plus-project
