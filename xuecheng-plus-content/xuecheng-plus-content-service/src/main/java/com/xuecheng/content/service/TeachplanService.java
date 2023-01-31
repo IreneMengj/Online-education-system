@@ -1,8 +1,9 @@
 package com.xuecheng.content.service;
 
+import com.xuecheng.model.dto.BindTeachplanMediaDto;
 import com.xuecheng.model.dto.SaveTeachplanDto;
 import com.xuecheng.model.dto.TeachplanDto;
-import com.xuecheng.model.dto.SaveTeachplanDto;
+import com.xuecheng.model.po.TeachplanMedia;
 
 import java.util.List;
 
@@ -14,7 +15,7 @@ import java.util.List;
  */
 public interface TeachplanService {
 
- public List<TeachplanDto> findTeachplayTree(Long courseId);
+ public List<TeachplanDto> findTeachplanTree(Long courseId);
 
  /**
   * @description 保存课程计划(新增/修改)
@@ -24,5 +25,13 @@ public interface TeachplanService {
   * @date 2022/10/10 15:07
  */
  public void saveTeachplan(SaveTeachplanDto dto);
+ /**
+  * @description 教学计划绑定媒资
+  * @param bindTeachplanMediaDto
+  * @return com.xuecheng.content.model.po.TeachplanMedia
+  * @author Mr.M
+  * @date 2022/9/14 22:20
+  */
+ public TeachplanMedia associationMedia(BindTeachplanMediaDto bindTeachplanMediaDto);
 
 }
