@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: auth-service
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/xc148_users?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: 19911120Aa,
+server:
+  servlet:
+    context-path: /auth
+  port: 63070
+
+#      discovery:
+#        namespace: dev148
+#        group: xuecheng-plus-project
+#      config:
+#        namespace: dev148
+#        group: xuecheng-plus-project
+#        file-extension: yaml
+#        refresh-enabled: true
+#        shared-configs:
+#          - data-id: swagger-${spring.profiles.active}.yaml
+#            group: xuecheng-plus-common
+#            refresh: true
+#          - data-id: logging-${spring.profiles.active}.yaml
+#            group: xuecheng-plus-common
+#            refresh: true
+
+  profiles:
+    active: dev
