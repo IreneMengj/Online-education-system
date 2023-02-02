@@ -1,11 +1,31 @@
 ### 课程查询
-POST {{content_host}}/content/course/list?pageNo=1&pageSize=10
+POST {{gateway_host}}/content/course/list?pageNo=1&pageSize=10
 Content-Type: application/json
 
 {
   "auditStatus": "",
   "courseName": "",
   "publishStatus": ""
+}
+
+
+### 删除
+DELETE {{content_host}}/content/coursetest/101
+
+
+### 创建课程测试
+POST {{content_host}}/content/coursetest
+Content-Type: application/json
+
+{
+  "description" : "课程描述",
+  "id" : 103,
+  "name" : "Java基础课程",
+  "phone" : "133333344",
+  "price" : 100.0,
+  "qq" : "32432",
+  "wechat" : "微信号",
+  "createdate" : "2022-10-23 08:34:05"
 }
 
 ### 创建课程
