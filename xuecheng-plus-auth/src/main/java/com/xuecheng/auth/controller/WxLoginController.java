@@ -1,6 +1,5 @@
 package com.xuecheng.auth.controller;
 
-import com.sun.xml.bind.v2.TODO;
 import com.xuecheng.ucenter.model.po.XcUser;
 import com.xuecheng.ucenter.service.impl.WxAuthServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,13 +28,12 @@ public class WxLoginController {
      //拿授权码申请令牌，查询用户
    XcUser xcUser = wxAuthService.wxAuth(code);
    if(xcUser == null){
-     //重定向到一个错误页面 TODO
-     return "redirect:http://127.0.0.1:63010/error.html";
-
+     //重定向到一个错误页面
+     return "redirect:http://www.xuecheng-plus123.com/error.html";
    }else{
     String username = xcUser.getUsername();
-    //重定向到登录页面，自动登录 TODO
-     return "redirect:http://127.0.0.1:63010/sign.html?username="+username+"&authType=wx";
+    //重定向到登录页面，自动登录
+     return "redirect:http://www.xuecheng-plus123.com/sign.html?username="+username+"&authType=wx";
    }
 
   }

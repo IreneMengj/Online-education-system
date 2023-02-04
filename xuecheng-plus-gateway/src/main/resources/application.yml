@@ -1,4 +1,6 @@
 server:
+#  servlet:
+#    context-path: /api
   port: 63010 # 网关端口
 spring:
   cloud:

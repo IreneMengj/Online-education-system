@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="/static/plugins/normalize-css/normalize.css" />
     <link rel="stylesheet" href="/static/plugins/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="/static/css/css/page-learing-article.css" />
+    <link rel="stylesheet" href="/static/css/page-learing-article.css" />
 </head>
 
 <body data-spy="scroll" data-target="#articleNavbar" data-offset="150">
@@ -58,7 +58,7 @@
         </div>
         <div class="banner-rit">
             <p>
-                <a href="http://www.xuecheng-plus.com/course/preview/learning.html?id=${model.courseBase.id}" target="_blank">
+                <a href="http://www.xuecheng-plus123.com/course/preview/learning.html?id=${model.courseBase.id}" target="_blank">
                     <#if model.courseBase.pic??>
                         <img src="http://file.xuecheng-plus.com${model.courseBase.pic}" alt="" width="270" height="156">
                     <#else>
@@ -180,7 +180,7 @@
                                 <div class="drop-down" style="height: 260px;">
                                     <ul class="list-box">
                                         <#list firstNode.teachPlanTreeNodes as secondNode>
-                                            <li><a href="http://www.xuecheng-plus.com/course/preview/learning.html?id=${model.courseBase.id}&chapter=${secondNode.teachplanMedia.teachplanId!''}" target="_blank">${secondNode.pname}</a></li>
+                                            <li><a href="http://www.xuecheng-plus123.com/course/preview/learning.html?id=${model.courseBase.id}&chapter=${secondNode.teachplanMedia.teachplanId!''}" target="_blank">${secondNode.pname}</a></li>
                                         </#list>
                                     </ul>
                                 </div>
