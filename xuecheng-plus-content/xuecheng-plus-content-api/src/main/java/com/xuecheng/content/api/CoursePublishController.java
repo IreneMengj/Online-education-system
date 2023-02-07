@@ -6,10 +6,7 @@ import com.xuecheng.content.service.CoursePublishService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
@@ -19,6 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
  * @date 2022/10/17 10:47
  */
 @Controller
+@RequestMapping("content")
 public class CoursePublishController {
 
     @Autowired
