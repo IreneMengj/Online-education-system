@@ -2,7 +2,7 @@
 <h3>Introduction</h3>
 This project is an online classroom system specifically for adult vocational skills education based on the B2B2C model. Training institutions can settle in and publish courses on the platform, and the platform will review the published courses. Students can directly select and study free courses, while for charged courses, they need to pay if they want to continue studying. Core modules include content management, media resource management, order payment, authentication and authorization, etc.
 
-development log:
+development log:<br>
 1.30
 After I used gateway to forward requests, content service can't work successfully. I checked this article https://blog.csdn.net/zjx828/article/details/113479421 and changed the port of content. This problem has been solved.
 
