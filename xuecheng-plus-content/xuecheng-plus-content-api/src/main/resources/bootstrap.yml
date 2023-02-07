@@ -1,6 +1,6 @@
 server:
-#  servlet:
-#    context-path: /content
+  servlet:
+    context-path: /content
   port: 63030
 #微服务配置
 spring:

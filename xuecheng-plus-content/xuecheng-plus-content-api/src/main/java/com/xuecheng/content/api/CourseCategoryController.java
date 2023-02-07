@@ -22,7 +22,6 @@ import java.util.List;
 @Slf4j
 @Api(value = "课程分类相关接口",tags = "课程分类相关接口")
 @RestController
-@RequestMapping("content")
 public class CourseCategoryController {
 
     @Autowired

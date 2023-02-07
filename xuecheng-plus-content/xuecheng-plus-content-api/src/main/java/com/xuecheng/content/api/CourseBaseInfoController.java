@@ -30,7 +30,6 @@ import org.springframework.web.bind.annotation.*;
  */
 @Api(value = "课程管理接口",tags = "课程管理接口")
 @RestController
-@RequestMapping("content")
 public class CourseBaseInfoController {
 
     @Autowired

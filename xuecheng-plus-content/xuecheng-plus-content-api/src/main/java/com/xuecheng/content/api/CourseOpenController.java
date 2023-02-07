@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @Api(value = "课程公开查询接口", tags = "课程公开查询接口")
 @RestController
-@RequestMapping("content/open")
 public class CourseOpenController {
 
     @Autowired

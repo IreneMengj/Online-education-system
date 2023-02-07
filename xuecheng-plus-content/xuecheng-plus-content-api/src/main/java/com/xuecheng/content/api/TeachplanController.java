@@ -19,7 +19,7 @@ import java.util.List;
  */
 
 @RestController
-@RequestMapping("content")
+
 public class TeachplanController {
 
     @Autowired

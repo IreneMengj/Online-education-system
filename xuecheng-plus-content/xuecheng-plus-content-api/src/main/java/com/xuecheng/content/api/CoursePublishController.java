@@ -16,7 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
  * @date 2022/10/17 10:47
  */
 @Controller
-@RequestMapping("content")
+
 public class CoursePublishController {
 
     @Autowired
