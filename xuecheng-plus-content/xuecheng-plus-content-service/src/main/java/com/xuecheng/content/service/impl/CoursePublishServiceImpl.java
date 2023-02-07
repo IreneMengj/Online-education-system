@@ -22,7 +22,6 @@ import com.xuecheng.content.service.CoursePublishService;
 import com.xuecheng.content.service.TeachplanService;
 import com.xuecheng.messagesdk.model.po.MqMessage;
 import com.xuecheng.messagesdk.service.MqMessageService;
-import com.xuecheng.model.dto.CourseBaseInfoDto;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
@@ -290,6 +289,11 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         if(mqMessage == null){
             XueChengPlusException.cast("添加消息记录失败");
         }
+    }
+
+    public CoursePublish getCoursePublish(Long courseId){
+        CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
+        return coursePublish ;
     }
 
 }
