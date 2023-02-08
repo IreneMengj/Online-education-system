@@ -1,3 +1,9 @@
+server:
+  servlet:
+    context-path: /orders
+  port: 63030
+
+
 #微服务配置
 spring:
   application:

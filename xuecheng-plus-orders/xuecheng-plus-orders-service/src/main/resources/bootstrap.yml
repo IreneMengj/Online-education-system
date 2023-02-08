@@ -4,6 +4,14 @@ spring:
   cloud:
     nacos:
       server-addr: 127.0.0.1:8848
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/xcplus_orders?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: 19911120Aa,
+
+
 #      discovery:
 #        namespace: dev148
 #        group: xuecheng-plus-project
