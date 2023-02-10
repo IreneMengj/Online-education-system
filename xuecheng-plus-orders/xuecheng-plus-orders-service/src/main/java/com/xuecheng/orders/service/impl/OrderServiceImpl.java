@@ -56,7 +56,7 @@ public class OrderServiceImpl implements OrderService {
         String qrCode = null;
         try {
             //url要可以被模拟器访问到，url为下单接口(稍后定义)
-            qrCode = new QRCodeUtil().createQRCode("http://192.168.101.1/api/orders/requestpay?payNo="+payRecord.getPayNo(), 200, 200);
+            qrCode = new QRCodeUtil().createQRCode("http://127.0.0.1/api/orders/requestpay?payNo="+payRecord.getPayNo(), 200, 200);
         } catch (IOException e) {
             XueChengPlusException.cast("生成二维码出错");
         }
