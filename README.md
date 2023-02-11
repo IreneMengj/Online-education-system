@@ -10,4 +10,6 @@ This project includes user side,institutional side and operations side.<br>
 <br>
 This project adopts a front-end and back-end separation architecture, with the back-end developed using the <b>SpringBoot</b> and <b>SpringCloud </b>technology stack. The database used is MySQL, and it also uses middleware systems such as <b>Redis, message queues, distributed file systems, and Elasticsearch</b>.
 
+<h3>work flow</h3>
+
 ![image](https://user-images.githubusercontent.com/88880169/218255123-b0cf9623-5005-4c01-b8cc-e3db367373fa.png)
