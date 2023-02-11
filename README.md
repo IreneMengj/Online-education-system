@@ -5,5 +5,7 @@ This project is an online classroom system specifically for adult vocational ski
 
 <h3>Project Introduction</h3>
 This project includes user side,institutional side and operations side.
-Core modules include: content management, media assets management, course search, order payment, course selection management, authentication and authorization, etc.
+Core modules include: content management, media assets management, course search, order payment, course selection management, authentication and authorization, etc.<br>
+
+This project adopts a front-end and back-end separation architecture, with the back-end developed using the SpringBoot and SpringCloud technology stack. The database used is MySQL, and it also uses middleware systems such as Redis, message queues, distributed file systems, and Elasticsearch.
 
