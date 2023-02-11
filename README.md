@@ -1,16 +1,16 @@
 # xuecheng-plus-project148
-<h3>Project Background</h3>
+<h3>1. Project Background</h3>
 
 This project is an online classroom system specifically for adult vocational skills education based on the B2B2C model. Training institutions can settle in and publish courses on the platform, and the platform will review the published courses. Students can directly select and study free courses, while for charged courses, they need to pay if they want to continue studying. Core modules include content management, media resource management, order payment, authentication and authorization, etc.
 
-<h3>Project Introduction</h3>
+<h3>2. Project Introduction</h3>
 This project includes user side,institutional side and operations side.<br>
 <br>
 <b>Core modules</b> include: content management, media assets management, course search, order payment, course selection management, authentication and authorization, etc.<br>
 <br>
 This project adopts a front-end and back-end separation architecture, with the back-end developed using the <b>SpringBoot</b> and <b>SpringCloud </b>technology stack. The database used is MySQL, and it also uses middleware systems such as <b>Redis, message queues, distributed file systems, and Elasticsearch</b>.
 
-<h3>work flow</h3>
-<br>
-1. The course editing and publishing process is as follows:<br>
-![image](https://user-images.githubusercontent.com/88880169/218255123-b0cf9623-5005-4c01-b8cc-e3db367373fa.png)
+<h3>3. Course publishment flow<h3>
+  
+![image](https://user-images.githubusercontent.com/88880169/218255289-b9b3d8df-0692-4cc6-a91a-fe55c60ac82e.png)
+
