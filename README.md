@@ -14,3 +14,6 @@ This project adopts a front-end and back-end separation architecture, with the b
   
 ![image](https://user-images.githubusercontent.com/88880169/218255289-b9b3d8df-0692-4cc6-a91a-fe55c60ac82e.png)
 
+<h3>4. Course selection flow</h3>
+
+![image](https://user-images.githubusercontent.com/88880169/218258141-f03b7559-91eb-465a-8a29-0ab22b10d1b3.png)
